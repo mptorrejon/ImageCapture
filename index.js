@@ -19,7 +19,7 @@ camera.on("read", function( err, timestamp, filename ){
         console.log('Error taking photo!');
     }
 
-    camera.stop();
+   camera.stop();
 
 });
 
